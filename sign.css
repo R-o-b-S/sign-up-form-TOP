@@ -51,12 +51,6 @@ div {
     font-family: Norse;
 }
 
-#form {
-    background: yellow;
-    flex-grow: 1;
-    justify-content: center;
-}
-
 #credit {
     position: absolute;
     width: 100%;
@@ -68,4 +62,16 @@ div {
 
 a:link {
     color: white;
+}
+
+#welcome {
+    background: rgb(240, 240, 240);
+    flex-grow: 1;
+	justify-content: space-between;
+    flex-direction: column;
+}
+
+#quote {
+    padding: 4vh 0 4vh 0;
+    margin: 0;
 }
