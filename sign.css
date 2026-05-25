@@ -12,7 +12,8 @@ div {
 p {
     margin: 0;
     padding: 0;
-    font-size: 3vh;
+    font-size: 2.5vh;
+    font-weight: bold;
 }
 
 #main {
@@ -56,6 +57,7 @@ p {
     padding: 0;
     margin: 0;
     font-family: Norse;
+    font-weight: 500;
 }
 
 #credit {
@@ -66,6 +68,7 @@ p {
     margin: 0;
     text-align: center;
     font-size: 1.5vh;
+    font-weight: lighter;
 }
 
 a:link {
@@ -73,14 +76,13 @@ a:link {
 }
 
 #welcome {
-    background: rgb(240, 240, 240);
+    background: rgb(245, 245, 245);
     flex-grow: 1;
-	justify-content: center;
     flex-direction: column;
 }
 
 #quote {
-    padding: 4vh 0 4vh 0;
+    padding: 8vh 0vw 8vh 4vw;
     margin: 0;
 }
 
@@ -89,18 +91,56 @@ a:link {
     justify-content: center;
     background-color: white;
     padding: 4%;
+    box-shadow: 8px 2px 4px rgb(0 0 0 / 20%);
 }
 
 #form {
-    justify-content: center;
+    justify-content: baseline;
 
 }
 
 .form-column {
     flex-direction: column;
     justify-content: center;
+    padding: 2% 4%;
 }
+
+#head {padding: 0% 4%;}
 
 label {
     font-size: 1.5vh;
+}
+
+input {
+    border-radius: 4px;
+    border-color: #E5E7EB;
+    border-width: 1px;
+    height: 2.5vh;
+    width: 15vw;
+}
+
+#bottom{
+    padding: 3vh 0vw 2vh 4vw;
+    flex-direction: column;
+}
+
+button{
+    height: 6vh;
+    width: 14vw;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #596D48;
+    color: white;
+}
+
+#login {
+    margin-top: 2vh;
+    font-size: 2vh;
+    font-weight: lighter;
+}
+
+#log {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
