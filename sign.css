@@ -26,7 +26,6 @@ div {
 #logo {
     position: absolute;
     width: 100%;
-    background: black;
     background: rgb(0 0 0 / 40%);
     color: white;
     top: 22%;
@@ -56,4 +55,17 @@ div {
     background: yellow;
     flex-grow: 1;
     justify-content: center;
+}
+
+#credit {
+    position: absolute;
+    width: 100%;
+    color: white;
+    bottom: 1%;
+    margin: 0;
+    text-align: center;
+}
+
+a:link {
+    color: white;
 }
