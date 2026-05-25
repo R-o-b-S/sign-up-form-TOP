@@ -20,7 +20,36 @@ div {
     justify-content: center;
     margin:0;
     padding:0;
-    
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    width: 100%;
+    background: black;
+    background: rgb(0 0 0 / 40%);
+    color: white;
+    top: 22%;
+    align-items: center;
+	justify-content: center;
+}
+
+#odin {
+    height: 16vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+@font-face {
+  font-family: Norse;
+  src: url(../sign-up-form-TOP/Norse.otf);
+}
+
+#odinW {
+    font-size: 14vh;
+    padding: 0;
+    margin: 0;
+    font-family: Norse;
 }
 
 #form {
