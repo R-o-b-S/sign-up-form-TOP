@@ -82,7 +82,7 @@ a:link {
 }
 
 #quote {
-    padding: 8vh 0vw 8vh 4vw;
+    padding: 8vh 4vw 8vh 4vw;
     margin: 0;
 }
 
@@ -108,7 +108,7 @@ a:link {
 #head {padding: 0% 4%;}
 
 label {
-    font-size: 1.5vh;
+    font-size: 1.2vh;
 }
 
 input {
@@ -117,6 +117,19 @@ input {
     border-width: 1px;
     height: 2.5vh;
     width: 15vw;
+}
+
+input:user-valid {
+    border-color: #596D48;
+}
+
+input:user-invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
 }
 
 #bottom{
@@ -131,6 +144,7 @@ button{
     border-style: none;
     background-color: #596D48;
     color: white;
+    box-shadow: 6px 2px 4px rgb(0 0 0 / 20%);
 }
 
 #login {
